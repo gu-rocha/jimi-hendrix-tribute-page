@@ -1,0 +1,153 @@
+  html {
+    font-size: 10px;
+  }
+
+  #main {
+    padding: 15px;
+    background: #4B0082;
+  }
+  
+  body {
+    font-family: Bungee, 'Segoe UI', 'Roboto','Helvetica Neue', Arial, sans-serif;
+    font-size: 2rem;
+    line-height: .5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin: 20px 0px 10px 0px;
+    line-height: 1;
+    color: #FFD700;
+    margin-bottom: -5px;
+    text-shadow: 0px 0px 20px black;
+   }
+
+   @media (max-width: 600px) {
+    h1 {
+      margin: 10px auto auto auto;
+      
+    }
+  }   
+  
+  div {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    line-height: 1.8;
+    color: #FFD700;
+    text-shadow: 0px 0px 20px black;
+  }
+
+  @media (max-width: 600px) {
+    div {
+      margin: auto auto 15px auto;    
+    } 
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  @media (max-width: 600px) {
+    h3 {   
+      margin: auto 10px 10px 10px;
+    }
+  } 
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0px -15px 40px -15px;
+    box-shadow: 0px 0px 15px 0px black;
+    }
+  
+  #img-caption {
+    font-family: 'Roboto','Helvetica Neue', Arial, sans-serif;
+    margin: 15px 0 5px 0;
+    font-size: 1.8rem;
+  }
+  
+  #tribute-info{
+    background: white;
+    padding: 5px;
+    margin: 0px 55px 20px 55px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px black;  
+  }
+
+  #headline {
+    font-family: 'Montserrat','Helvetica Neue', Arial, sans-serif;
+    line-height: 1.2;
+    margin: 15px auto 30px auto;
+    text-align: center;  
+  }
+
+  @media (max-width: 600px) {
+    #headline {
+      width: 90%;
+    }
+  }
+  
+  dl{
+    line-height: 1.6;
+    margin: auto;
+  }
+  
+  dt {
+    font-family: 'Montserrat','Helvetica Neue', Arial, sans-serif;
+    margin: 15px auto 15px auto;  
+    text-align: justify;
+    width: 80%;   
+  }
+
+  @media (max-width: 600px) {
+    dl, dt {
+     width: 90%;
+    }
+  }
+  
+  p , cite{
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 600px) {
+    p, cite {
+     margin: 10px;
+    }
+  }
+
+  blockquote {
+    font-family: 'Montserrat','Helvetica Neue', Arial, sans-serif;  
+    font-style: italic;
+    max-width: 90%;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
